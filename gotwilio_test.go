@@ -340,22 +340,4 @@ func TestParticipantCreationAndMessage(t *testing.T) {
 	}
 	fmt.Println("Interaction Count", len(interactions.Interactions))
 
-	// participant, exc, err := session.DeleteParticipant(participant.ID)
-	// if err != nil {
-	// 	t.Fatal(err)
-	// }
-	// if exc != nil {
-	// 	t.Fatal(exc)
-	// }
-
-	// // Delete Session
-	// exc, err = twilio.DeleteProxySession(service.Sid, session.Sid)
-	// if err != nil {
-	// 	t.Fatal(err)
-	// }
-
-	// if exc != nil {
-	// 	t.Fatal(exc)
-	// }
-
 }
